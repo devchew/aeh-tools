@@ -1,5 +1,7 @@
 # aeh-tools
 
+![image](https://github.com/devchew/aeh-tools/assets/69403119/bd26c095-d774-4622-86b7-d56738738d4d)
+
 narzędzia dla studentów AEH
 
 ## uruchomienie
