@@ -1,0 +1,19 @@
+---
+version: "2.1"
+services:
+  dashboard:
+    image: ghcr.io/ajnart/homarr:latest
+    restart: unless-stopped
+    volumes:
+      - ./homarr/configs:/app/data/configs
+      - ./homarr/icons:/app/public/icons
+    ports:
+      - '9999:7575'
+  calendarConverter:
+    image: devchew/aehcalendarconverter:latest
+    ports:
+      - 8081:80
+  networkcalculator:
+    image: devchew/networkcalculator:latest
+    ports:
+      - 8082:80

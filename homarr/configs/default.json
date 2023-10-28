@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "configProperties": {
+    "name": "default"
+  },
+  "categories": [
+    {
+      "id": "bc7b44c0-6b09-4a12-907f-3a365133eff1",
+      "name": "Narzędzia",
+      "position": 1,
+      "type": "category"
+    }
+  ],
+  "wrappers": [
+    {
+      "id": "default",
+      "position": 0
+    },
+    {
+      "id": "35ea2247-e4ef-4fc2-93ab-383c3675c00c",
+      "position": 1
+    }
+  ],
+  "apps": [],
+  "widgets": [
+    {
+      "id": "e3004052-6b83-480e-b458-56e8ccdca5f0",
+      "type": "weather",
+      "properties": {
+        "displayInFahrenheit": false,
+        "location": {
+          "name": "Warsaw",
+          "latitude": 52.22977,
+          "longitude": 21.01178
+        },
+        "displayCityName": true
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 5,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 8,
+            "y": 1
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "6647709b-5d7b-4d92-a0c6-581911ec8586",
+      "type": "iframe",
+      "properties": {
+        "embedUrl": "http://localhost:8081",
+        "allowFullScreen": true,
+        "allowScrolling": true,
+        "allowTransparency": false,
+        "allowPayment": false,
+        "allowAutoPlay": false,
+        "allowMicrophone": false,
+        "allowCamera": false,
+        "allowGeolocation": false
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "bc7b44c0-6b09-4a12-907f-3a365133eff1"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 0
+          },
+          "size": {
+            "width": 5,
+            "height": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "971aa859-8570-49a1-8d34-dd5c7b3638d1",
+      "type": "date",
+      "properties": {
+        "display24HourFormat": true,
+        "dateFormat": "hide",
+        "enableTimezone": false,
+        "timezoneLocation": {
+          "name": "Paris",
+          "latitude": 48.85341,
+          "longitude": 2.3488
+        },
+        "titleState": "city"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 1,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 4,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 8,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "7782b34e-3fa7-4250-90a3-a65770eb22d4",
+      "type": "iframe",
+      "properties": {
+        "embedUrl": "http://localhost:8082",
+        "allowFullScreen": true,
+        "allowScrolling": true,
+        "allowTransparency": false,
+        "allowPayment": false,
+        "allowAutoPlay": false,
+        "allowMicrophone": false,
+        "allowCamera": false,
+        "allowGeolocation": false
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "bc7b44c0-6b09-4a12-907f-3a365133eff1"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 5,
+            "height": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "dc05d367-021f-40f6-8854-1bbd55dfbc9c",
+      "type": "notebook",
+      "properties": {
+        "showToolbar": true,
+        "content": "<h1>Panel narządzi dla studenta AEH</h1><p>W panelu narzędzia znajdziesz kalkulator adresów IP oraz konwerter kalendarza </p><p><br>Panel który czytasz możesz dowolne edytować, wpisywać notatki czy całkowicie go usunać</p>"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "default"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 3,
+            "height": 2
+          }
+        },
+        "md": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 3,
+            "height": 2
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 8,
+            "height": 2
+          }
+        }
+      }
+    }
+  ],
+  "settings": {
+    "common": {
+      "searchEngine": {
+        "type": "google",
+        "properties": {}
+      }
+    },
+    "customization": {
+      "layout": {
+        "enabledLeftSidebar": false,
+        "enabledRightSidebar": false,
+        "enabledDocker": false,
+        "enabledPing": false,
+        "enabledSearchbar": false
+      },
+      "pageTitle": "Homarr ⭐️",
+      "logoImageUrl": "/imgs/logo/logo.png",
+      "faviconUrl": "/imgs/favicon/favicon-squared.png",
+      "backgroundImageUrl": "",
+      "customCss": "",
+      "colors": {
+        "primary": "red",
+        "secondary": "yellow",
+        "shade": 7
+      },
+      "appOpacity": 100,
+      "gridstack": {
+        "columnCountSmall": 3,
+        "columnCountMedium": 6,
+        "columnCountLarge": 10
+      }
+    }
+  }
+}
